@@ -1,0 +1,81 @@
+Searching 1449 files for "Omruby"
+
+/Users/Dave/Desktop/omruby/package.json:
+    1  {
+    2:   "name": "omrails",
+    3    "private": true,
+    4    "dependencies": {}
+
+/Users/Dave/Desktop/omruby/app/views/layouts/application.html.erb:
+    2  <html>
+    3    <head>
+    4:     <title>Omrails</title>
+    5      <%= csrf_meta_tags %>
+    6      <%= csp_meta_tag %>
+
+/Users/Dave/Desktop/omruby/config/application.rb:
+    7  Bundler.require(*Rails.groups)
+    8  
+    9: module Omrails
+   10    class Application < Rails::Application
+   11      # Initialize configuration defaults for originally generated Rails version.
+
+/Users/Dave/Desktop/omruby/config/cable.yml:
+    8    adapter: redis
+    9    url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+   10:   channel_prefix: omrails_production
+   11  
+
+/Users/Dave/Desktop/omruby/config/environments/production.rb:
+   62    # Use a real queuing backend for Active Job (and separate queues per environment)
+   63    # config.active_job.queue_adapter     = :resque
+   64:   # config.active_job.queue_name_prefix = "omrails_#{Rails.env}"
+   65  
+   66    config.action_mailer.perform_caching = false
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-load-path-cache:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/11/8e0788d5ef2888:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/14/23fc4a40c03813:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/14/5790ae81251514:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/1f/e61e72e59dc0c5:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/64/fe02f4bef485ca:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/6b/f24dd1b77928d0:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/6f/051d6181afa758:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/8a/404690c1b1f12e:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/95/2d88150306a567:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/a5/569e8c763ffd99:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/c2/7277dfe171a44d:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/ca/2d263463672e59:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/eb/174069d3413827:
+    <binary>
+
+/Users/Dave/Desktop/omruby/tmp/cache/bootsnap-compile-cache/ee/b2aa348ff4b5b7:
+    <binary>
+
+32 matches across 20 files
